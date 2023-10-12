@@ -1,6 +1,13 @@
 .{
     .name = "freetype",
     .version = "0.0.0",
+    .paths = .{
+        "include/",
+        "src/",
+        "LICENSE.txt",
+        "build.zig",
+        "build.zig.zon",
+    },
     .dependencies = .{
         .brotli = .{
             .url = "https://pkg.machengine.org/brotli/10ca07a682c1a720b0cf67a554cfcbcd0e6e8d0c.tar.gz",
